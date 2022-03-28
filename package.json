@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Generate docker config files from json",
   "main": "index.js",
+  "bin": {
+    "docker-json": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
